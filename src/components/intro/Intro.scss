@@ -5,6 +5,7 @@
   display: flex;
 
   @include mobile {
+    margin-top: -60px !important;
     flex-direction: column;
     align-items: center;
   }
@@ -19,14 +20,14 @@
       background-color: darkblue;
       border-radius: 40%;
       display: flex;
-      margin-top: 64px;
+      margin-top: 50px;
       align-items: flex-end;
       justify-content: center;
       float: right;
 
       @include mobile {
         align-items: flex-start;
-        margin-top: 50px;
+        margin-top: 14px;
         width: 400px;
         border-radius: 0;
       }
@@ -64,14 +65,17 @@
         margin: 10px 0;
 
         @include mobile {
-          font-size: 40px;
+          font-size: 20px;
         }
       }
       h2 {
         font-size: 35px;
+        @include mobile {
+          font-size: 17px;
+        }
       }
       h3 {
-        font-size: 30px;
+        font-size: 17px;
 
         @include mobile {
           font-size: 20px;
