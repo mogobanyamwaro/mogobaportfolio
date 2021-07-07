@@ -26,7 +26,7 @@ export default function Testimonials() {
       title: 'Electrical Engineer',
       img: 'https://images.pexels.com/photos/1251861/pexels-photo-1251861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       icon: 'assets/linkedin.png',
-      desc: 'I am really impressed by the quality of services I received from Douglas Mogoba. You were right on schedule, charged reasonable prices, were professional and courteous in dealings, and delivered items well before time. I have got a good e-commerce site for my products.',
+      desc: 'I am really impressed by the quality of services I received from Douglas Mogoba. You were right on schedule, charged reasonable prices, were professional and courteous in dealings, and delivered items well before time. ',
     },
   ];
   return (
@@ -36,11 +36,11 @@ export default function Testimonials() {
         {data.map((d) => (
           <div className={d.featured ? 'card featured' : 'card'}>
             <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
+              <img src="assets/right-arrow.png" className="left__top" alt="" />
               <img className="user" src={d.img} alt="" />
-              <img className="right" src={d.icon} alt="" />
+              <img className="right__top" src={d.icon} alt="" />
             </div>
-            <div className="center">{d.desc}</div>
+            <div className="centerTestimonial">{d.desc}</div>
             <div className="bottom">
               <h3>{d.name}</h3>
               <h4>{d.title}</h4>
