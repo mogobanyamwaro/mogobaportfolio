@@ -16,7 +16,7 @@ function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.JPG" alt="" />
+          <img src="assets/man.jpg" alt="" />
         </div>
       </div>
       <div className="right">

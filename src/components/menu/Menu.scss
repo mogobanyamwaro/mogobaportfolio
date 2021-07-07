@@ -6,6 +6,12 @@
   background-color: $mainColor;
   position: fixed;
   top: 0;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; //for firefox
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   z-index: 4;
   display: flex;
@@ -15,8 +21,15 @@
   transition: all 0.5s ease;
 
   &.active {
-    height: 70px;
+    height: 60px;
     align-items: center;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firefox
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   ul {
