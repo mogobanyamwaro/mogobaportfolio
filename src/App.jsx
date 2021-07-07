@@ -7,6 +7,8 @@ import Portifolio from './components/portifolio/Portifolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Work from './components/works/Work';
 import Menu from './components/menu/Menu';
+import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,9 +19,11 @@ function App() {
       <section className="sections">
         <Intro />
         <Portifolio />
+        <Skills />
         <Work />
         <Testimonials />
         <Contact />
+        <Footer />
       </section>
     </div>
   );

@@ -77,6 +77,9 @@ function Portifolio() {
           </div>
         ))}
       </div>
+      <a href="#skills">
+        <img src="assets/down.png" alt="" />
+      </a>
     </div>
   );
 }
