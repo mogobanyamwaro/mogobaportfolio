@@ -17,15 +17,15 @@ function Footer() {
                 Price. Also i Make the E-commerce webistes
               </p>
               <div className="social">
-                <a href="#">
+                <a href="https://www.facebook.com/douglas.mogoba.52/">
                   <span className="fab fa-facebook"></span>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/douglas_mogoba">
                   <span className="fab fa-twitter"></span>
                 </a>
 
-                <a href="#">
-                  <span className="fab fa-youtube"></span>
+                <a href="www.linkedin.com/in/douglas-nyamwaro-993517192">
+                  <span className="fab fa-linkedin"></span>
                 </a>
               </div>
             </div>
