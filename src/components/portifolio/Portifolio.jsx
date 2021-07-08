@@ -57,7 +57,7 @@ function Portifolio() {
   }, [selected]);
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>My Projects</h1>
       <ul>
         {list.map((item) => (
           <PortifolioList

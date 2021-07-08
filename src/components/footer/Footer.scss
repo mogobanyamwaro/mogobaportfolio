@@ -77,6 +77,7 @@
   @include mobile {
     height: 30px;
     width: 30px;
+    margin-top: 20px;
   }
 }
 .left .content .social a span:hover {
@@ -129,7 +130,8 @@
 }
 .center {
   @include mobile {
-    flex-basis: 30%;
+    flex-basis: 0%;
+    display: none;
   }
 }
 .right {
