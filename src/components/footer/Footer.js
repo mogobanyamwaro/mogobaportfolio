@@ -12,10 +12,9 @@ function Footer() {
             <h2>About us</h2>
             <div className="content">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas ex ea voluptates quos in, reiciendis vel eligendi aut
-                rem necessitatibus officia corporis, soluta dolor, doloribus
-                sint accusamus nobis sapiente commodi.
+                You can follow me on WhatsApp also using this number
+                +254725523820, I make the most beautiful website at a negotiable
+                Price. Also i Make the E-commerce webistes
               </p>
               <div className="social">
                 <a href="#">

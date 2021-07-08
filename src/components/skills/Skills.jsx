@@ -10,9 +10,8 @@ function Skills() {
         <div>
           <h2 className="skills__subtitle">Profesional Skills</h2>
           <p className="skills__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
-            quidem pariatur vitae. Itaque ipsum dolorem error blanditiis non
-            soluta nostrum?
+            I Have arranged the programming according to how i understand them
+            not how long i have solved the problems with
           </p>
           <div className="skills__data">
             <div className="skills__names">
@@ -47,7 +46,7 @@ function Skills() {
           <div className="skills__data">
             <div className="skills__names">
               <i className="bx bxs-paint skills__icon"></i>
-              <span className="skills__name">GIT</span>
+              <span className="skills__name">Sass & Bootstrap</span>
             </div>
             <div className="skills__bar skills__ux"></div>
             <div>
@@ -57,7 +56,47 @@ function Skills() {
         </div>
 
         <div>
-          <img src="assets/work.jpg" alt="" className="skills__img" />
+          <p className="skills__text">DevOps</p>
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className="bx bxl-html5 skills__icon"></i>
+              <span className="skills__name">Git & Github</span>
+            </div>
+            <div className="skills__bar skills__html"></div>
+            <div>
+              <span className="skills__percentage">90%</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className="bx bxl-css3 skills__icon"></i>
+              <span className="skills__name">Docker</span>
+            </div>
+            <div className="skills__bar skills__css"></div>
+            <div>
+              <span className="skills__percentage">85%</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className="bx bxl-javascript skills__icon"></i>
+              <span className="skills__name">Linux</span>
+            </div>
+            <div className="skills__bar skills__js"></div>
+            <div>
+              <span className="skills__percentage">65%</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+              <i className="bx bxs-paint skills__icon"></i>
+              <span className="skills__name">Amazon Web Services</span>
+            </div>
+            <div className="skills__bar skills__ux"></div>
+            <div>
+              <span className="skills__percentage">70%</span>
+            </div>
+          </div>
         </div>
       </div>
       <a href="#works">

@@ -32,7 +32,7 @@
 
     .card {
       width: 250px;
-      height: 90%;
+      height: 100%;
       border-radius: 10px;
       box-shadow: 0px 0px 15px -8px black;
       display: flex;
@@ -42,18 +42,18 @@
       transition: all 1s ease;
 
       @include mobile {
-        height: 350px;
+        min-height: 350px;
         margin: 10px 0;
       }
 
       &.featured {
         width: 300px;
-        height: 80%;
+        min-height: 100%;
         margin: 0 30px;
 
         @include mobile {
           width: 250px;
-          height: 180px;
+          height: 350px;
           margin: 1px;
         }
       }
@@ -71,6 +71,9 @@
           &.left__top,
           &.right__top {
             height: 25px;
+            @include mobile {
+              height: 14px;
+            }
           }
           &.user {
             height: 60px;
@@ -80,8 +83,8 @@
             margin: 0 30px;
 
             @include mobile {
-              width: 30px;
-              height: 30px;
+              width: 20px;
+              height: 20px;
             }
           }
         }

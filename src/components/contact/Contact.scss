@@ -6,6 +6,7 @@
 
   @include mobile {
     flex-direction: column;
+    display: none;
   }
 
   .left {
