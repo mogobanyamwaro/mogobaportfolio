@@ -26,11 +26,11 @@ function Portifolio() {
       case 'featured':
         setData(featuredPortfolio);
         break;
-      case 'fullstack':
+      case 'Fullstack':
         setData(fullstack);
         break;
 
-      case 'shopify':
+      case 'Shopify':
         setData(shopifyapplication);
         break;
       default:
