@@ -21,11 +21,11 @@ function Portifolio() {
       title: 'Web App',
     },
     {
-      id: 'mobile',
+      id: 'Frontend',
       title: 'Frontend ',
     },
     {
-      id: 'design',
+      id: 'Backend',
       title: 'Backend',
     },
     {
