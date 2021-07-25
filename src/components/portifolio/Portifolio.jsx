@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Portifolio.scss';
-import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
-} from '../../data';
+import { featuredPortfolio, fullstack, shopifyapplication } from '../../data';
 import PortifolioList from '../portifolioList/PortifolioList';
 function Portifolio() {
   const [selected, setSelected] = useState('featured');
@@ -18,7 +12,7 @@ function Portifolio() {
     },
     {
       id: 'web',
-      title: 'Web App',
+      title: 'Web ',
     },
     {
       id: 'Frontend',
@@ -39,17 +33,12 @@ function Portifolio() {
       case 'featured':
         setData(featuredPortfolio);
         break;
-      case 'web':
-        setData(webPortfolio);
+      case 'fullstack':
+        setData(fullstack);
         break;
-      case 'mobile':
-        setData(mobilePortfolio);
-        break;
-      case 'design':
-        setData(designPortfolio);
-        break;
-      case 'content':
-        setData(contentPortfolio);
+
+      case 'shopify':
+        setData(shopifyapplication);
         break;
       default:
         setData(featuredPortfolio);
