@@ -10,17 +10,10 @@ function Portifolio() {
       id: 'featured',
       title: 'Featured',
     },
+
     {
-      id: 'web',
-      title: 'Web ',
-    },
-    {
-      id: 'Frontend',
-      title: 'Frontend ',
-    },
-    {
-      id: 'Backend',
-      title: 'Backend',
+      id: 'Fullstack',
+      title: 'Fullstack',
     },
     {
       id: 'Shopify',
