@@ -134,8 +134,8 @@ export const designPortfolio = [
 export const contentPortfolio = [
   {
     id: 1,
-    title: 'Frontend app',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU',
+    title: 'CocktailStore',
+    img: 'https://images.pexels.com/photos/8430446/pexels-photo-8430446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
   {
     id: 2,
