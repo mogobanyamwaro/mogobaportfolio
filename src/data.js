@@ -2,6 +2,7 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: ' Best Men Watch',
+    pass: '1234',
     link: 'https://bestmenwatch.myshopify.com/',
     img: 'https://images.pexels.com/photos/1151440/pexels-photo-1151440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
@@ -69,31 +70,45 @@ export const shopifyapplication = [
   {
     id: 1,
     title: 'CocktailStore',
+    pass: '1234',
+
+    link: 'https://mycocktailstore.myshopify.com/',
     img: 'https://images.pexels.com/photos/8430446/pexels-photo-8430446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
   {
     id: 2,
     title: 'Best Men Watch',
+    link: 'https://bestmenwatch.myshopify.com/',
+    pass: '1234',
+
     img: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2hlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 3,
     title: 'FashionProFash',
+    pass: '1234',
+
     img: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 4,
     title: 'Phone Store',
+
+    pass: '1234',
+
     img: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 5,
     title: 'Optica Store',
+    pass: '1234',
+
     img: 'https://images.unsplash.com/photo-1556015048-4d3aa10df74c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3VuZ2xhc3Nlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 6,
     title: 'Men Fashion',
+    pass: '1234',
     img: 'https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
 ];

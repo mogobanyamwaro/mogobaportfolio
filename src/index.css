@@ -1,5 +1,9 @@
-*{
-  font-family: "Roboto", sans-serif;
+* {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   overflow-x: hidden;
+}
+a {
+  color: red;
+  font-weight: 500;
 }

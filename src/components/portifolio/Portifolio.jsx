@@ -55,8 +55,16 @@ function Portifolio() {
         {data.map((d) => (
           <div className="item">
             <img src={d.img} alt="" />
-            <h3>{d.title}</h3>
-            <a href={`http://${d.link}`}>{d.title}</a>
+            <h3>
+              {d.title}
+              <hr />
+
+              {d.pass && d.pass}
+            </h3>
+
+            <a target="_blank" href={`${d.link}`}>
+              See The App
+            </a>
           </div>
         ))}
       </div>

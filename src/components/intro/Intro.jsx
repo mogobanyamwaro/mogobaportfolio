@@ -9,7 +9,12 @@ function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ['Frontend Developer', 'Backend Developer', 'Shopify Developer'],
+      strings: [
+        'Frontend Developer',
+        'Backend Developer',
+        'Shopify Developer',
+        'Digital Marketer',
+      ],
     });
   }, []);
   return (
