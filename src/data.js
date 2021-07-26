@@ -8,8 +8,9 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: 'Jumia E-commerce',
-    img: 'https://images.pexels.com/photos/4452372/pexels-photo-4452372.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    title: 'Shujaaz for pros',
+    link: 'https://mogobanyamwaro.github.io/shujaa-for-pros/',
+    img: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdlYiUyMGhvc3Rpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 3,
@@ -18,17 +19,20 @@ export const featuredPortfolio = [
   },
   {
     id: 4,
-    title: 'Dashboard',
+    title: 'Parallax website',
+    link: 'https://mogobanyamwaro.github.io/the-parallax-website/',
     img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFzaGJvYXJkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 5,
     title: 'Expense calculator app',
+    link: 'https://mogobanyamwaro.github.io/expense-tracker/',
     img: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhwZW5zZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 6,
-    title: 'Facebook App',
+    title: 'Video Background website',
+    link: 'https://mogobanyamwaro.github.io/the-video-background/',
     img: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZWJvb2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
 ];
@@ -36,8 +40,9 @@ export const featuredPortfolio = [
 export const fullstack = [
   {
     id: 1,
-    title: 'Netflix',
-    img: 'https://images.unsplash.com/photo-1512070800540-0d4192faa057?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5ldGZsaXh8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    title: 'Cocktails',
+    link: 'https://mogobanyamwaro.github.io/myCocktails/',
+    img: 'https://images.unsplash.com/photo-1591243315780-978fd00ff9db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja3RhaWxzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 2,
