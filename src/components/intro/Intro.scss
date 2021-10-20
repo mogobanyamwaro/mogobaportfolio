@@ -54,10 +54,15 @@
       flex-direction: column;
       text-align: center;
       justify-content: center;
+      // margin-top: -130px;
+      .link {
+        margin-top: -20px;
+      }
 
       @include mobile {
         padding-left: 0;
         align-items: center;
+        margin-top: 1px;
       }
 
       h1 {

@@ -99,7 +99,7 @@ img {
   position: relative;
   overflow: hidden;
   position: relative;
-  a {
+  .link {
     position: absolute;
     bottom: 10px;
     left: 40%;
@@ -128,6 +128,17 @@ img {
     margin-bottom: var(--mb-4);
     @include mobile {
       margin-bottom: 2px;
+    }
+  }
+  &__cv {
+    margin-left: 20px !important;
+    font-weight: 600;
+    color: var(--first-color);
+    padding-left: 40px;
+    padding-top: 20px;
+    &:hover {
+      // background-color: #4070f4;
+      color: #0e2431;
     }
   }
   &__data {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.scss';
-
+import { Link } from 'react-router-dom';
 function Skills() {
   return (
     <section className="skills section" id="skills">
@@ -97,9 +97,14 @@ function Skills() {
               <span className="skills__percentage">70%</span>
             </div>
           </div>
+          <div className="skills_data">
+            <Link className="skills__cv" to="#">
+              Read My CV
+            </Link>
+          </div>
         </div>
       </div>
-      <a href="#works">
+      <a className="link" href="#works">
         <img src="assets/down.png" alt="" />
       </a>
     </section>

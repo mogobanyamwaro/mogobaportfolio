@@ -3,7 +3,14 @@
   margin: 0;
   overflow-x: hidden;
 }
-a {
+.link {
   color: red;
   font-weight: 500;
 }
+.cv {
+  width: 70vw;
+  margin: 0 40px;
+}
+/* .link {
+  margin-top: -20px;
+} */

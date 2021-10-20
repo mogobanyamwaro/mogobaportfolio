@@ -1,31 +1,16 @@
-import { useState } from 'react';
 import './App.scss';
-import Contact from './components/contact/Contact';
-import Intro from './components/intro/Intro';
-import Navbar from './components/navbar/Navbar';
-import Portifolio from './components/portifolio/Portifolio';
-import Testimonials from './components/testimonials/Testimonials';
-import Work from './components/works/Work';
-import Menu from './components/menu/Menu';
-import Skills from './components/skills/Skills';
-import Footer from './components/footer/Footer';
+import Home from './pages/Home';
+// import Test from './components/pdf/Pdf';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Mycv from './pages/Mycv';
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="app">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <section className="sections">
-        <Intro />
-        <Portifolio />
-        <Skills />
-        <Work />
-        <Testimonials />
-        <Contact />
-        <Footer />
-      </section>
-    </div>
+    <Router>
+      <Route component={Home} path="/" exact />
+      {/* <Route component={Mycv} path="/mycv" exact /> */}
+    </Router>
   );
 }
 
