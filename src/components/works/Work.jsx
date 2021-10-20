@@ -32,42 +32,15 @@ function Work() {
   };
   return (
     <div className="works" id="works">
-      <div
-        className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        {data.map((d) => (
-          <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
-                </div>
-              </div>
-              <div className="right">
-                <img src={d.img} alt="" />
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <img
-        src="assets/arrow.png"
-        className="arrow left"
-        alt=""
-        onClick={() => handleClick('left')}
-      />
-      <img
-        src="assets/arrow.png"
-        className="arrow right"
-        alt=""
-        onClick={() => handleClick()}
-      />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.969461673765!2d36.93390621415831!3d-1.1819155991378965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f74418122c5%3A0x2bd9a1158ccc560f!2sChandaria%20Business%20Incubation%20and%20Innovation%20Centre%2C%20Kenya%20Drive%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1634708920878!5m2!1sen!2ske"
+        width="1200"
+        height="500"
+        style={{ border: 0 }}
+        allowfullscreen=""
+        loading="lazy"
+        title="Find us"
+      ></iframe>
     </div>
   );
 }
