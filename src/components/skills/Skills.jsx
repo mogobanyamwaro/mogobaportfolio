@@ -38,9 +38,9 @@ function Skills() {
               <i className="bx bxl-javascript skills__icon"></i>
               <span className="skills__name">JAVASCRIPT</span>
             </div>
-            <div className="skills__bar skills__js"></div>
+            <div className="skills__bar skills__css"></div>
             <div>
-              <span className="skills__percentage">65%</span>
+              <span className="skills__percentage">95%</span>
             </div>
           </div>
           <div className="skills__data">
