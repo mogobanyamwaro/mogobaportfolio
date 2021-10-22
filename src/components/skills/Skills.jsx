@@ -10,8 +10,8 @@ function Skills() {
         <div>
           <h2 className="skills__subtitle">Profesional Skills</h2>
           <p className="skills__text">
-            I Have arranged the programming according to how i understand them
-            not how long i have solved the problems with
+            I have arranged my skills on the number of problems i have solved
+            with the language
           </p>
           <div className="skills__data">
             <div className="skills__names">
@@ -64,7 +64,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__html"></div>
             <div>
-              <span className="skills__percentage">90%</span>
+              <span className="skills__percentage">99%</span>
             </div>
           </div>
           <div className="skills__data">
@@ -84,7 +84,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__js"></div>
             <div>
-              <span className="skills__percentage">65%</span>
+              <span className="skills__percentage">95%</span>
             </div>
           </div>
           <div className="skills__data">
