@@ -32,9 +32,9 @@ export const featuredPortfolio = [
   },
   {
     id: 6,
-    title: 'Video Background website',
-    link: 'https://mogobanyamwaro.github.io/the-video-background/',
-    img: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZWJvb2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    title: 'My Blog',
+    link: 'https://mogobabestblog.netlify.app/',
+    img: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
 ];
 
