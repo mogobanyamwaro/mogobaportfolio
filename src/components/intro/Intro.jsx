@@ -29,7 +29,7 @@ function Intro() {
           <h2>Hello, I'm</h2>
           <h1>Douglas Mogoba </h1>
           <h3>
-            Freelance
+            Lead
             <span ref={textRef}></span>
           </h3>
         </div>
