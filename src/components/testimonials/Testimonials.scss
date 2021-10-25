@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 
     @include mobile {
       flex-direction: column;

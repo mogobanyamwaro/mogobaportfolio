@@ -97,11 +97,6 @@ function Skills() {
               <span className="skills__percentage">70%</span>
             </div>
           </div>
-          <div className="skills_data">
-            <Link className="skills__cv" to="#">
-              Read My CV
-            </Link>
-          </div>
         </div>
       </div>
       <a className="link" href="#works">

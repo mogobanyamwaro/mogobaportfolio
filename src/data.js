@@ -2,7 +2,6 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: 'Faina Consultancy',
-    pass: '1234',
     link: 'http://www.fainatech.com/',
     img: 'https://images.pexels.com/photos/1151440/pexels-photo-1151440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
