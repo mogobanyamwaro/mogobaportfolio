@@ -62,7 +62,7 @@ function Portifolio() {
               {d.pass && d.pass}
             </h3>
 
-            <a target="_blank" href={`${d.link}`}>
+            <a className="app__link" target="_blank" href={`${d.link}`}>
               See The App
             </a>
           </div>
