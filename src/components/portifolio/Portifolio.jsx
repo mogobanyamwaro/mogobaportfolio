@@ -57,7 +57,6 @@ function Portifolio() {
             <img src={d.img} alt="" />
             <h3>
               {d.title}
-              <hr />
 
               {d.pass && d.pass}
             </h3>
@@ -65,6 +64,7 @@ function Portifolio() {
             <a className="app__link" target="_blank" href={`${d.link}`}>
               See The App
             </a>
+            <hr />
           </div>
         ))}
       </div>
