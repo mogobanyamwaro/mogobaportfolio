@@ -50,7 +50,7 @@ function Skills() {
             </div>
             <div className="skills__bar skills__ux"></div>
             <div>
-              <span className="skills__percentage">70%</span>
+              <span className="skills__percentage">90%</span>
             </div>
           </div>
         </div>
