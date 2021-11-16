@@ -7,7 +7,7 @@ export default function Testimonials() {
       <h2 className="testimonial__title">Here is my CV</h2>
       <div className="container">
         <iframe
-          src="https://docs.google.com/document/d/1nZx-IJyKTXArvEoLrzVwr0k2mJxregWc4GLu_zPCbQA/edit#heading=h.gjdgxs"
+          src="https://drive.google.com/file/d/1Bnt4w24zl5h1Cc5kehcaL1j91SX9cwqv/preview"
           width="680"
           height="480"
           allow="autoplay"
