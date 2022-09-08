@@ -1,4 +1,4 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
 .intro {
   background-color: white;
@@ -16,9 +16,9 @@
 
     .imgContainer {
       width: 700px;
-      height: 1050px;
-      background-color: darkblue;
-      border-radius: 40%;
+      height: 700px;
+      background-color: white;
+      border-radius: 50%;
       display: flex;
       margin-top: 50px;
       align-items: flex-end;
@@ -30,11 +30,14 @@
         margin-top: 14px;
         width: 400px;
         border-radius: 0;
+        padding: 50px;
+        background-color: white;
       }
 
       img {
         height: 100%;
         width: 100%;
+        object-fit: contain;
 
         @include mobile {
           height: 50%;
@@ -45,6 +48,11 @@
   .right {
     flex: 0.5;
     position: relative;
+    overflow: hidden;
+    @include mobile {
+      width: 100%;
+      margin-top: 20px;
+    }
 
     .wrapper {
       width: 100%;
@@ -54,9 +62,13 @@
       flex-direction: column;
       text-align: center;
       justify-content: center;
-      // margin-top: -130px;
+
       .link {
         margin-top: -20px;
+
+        @include mobile {
+          margin-top: 0;
+        }
       }
 
       @include mobile {
